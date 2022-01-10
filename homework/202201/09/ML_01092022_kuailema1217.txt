@@ -1,0 +1,19 @@
+Wide & Deep Learning for Recommender Systems
+
+Wide:
+Usage: memorization of feature interactions (direct, Co-occurance - 记忆能力，解释力)
+Model: logistic regression
+Effect: effective and interpretable
+Shortage: generalization requires more feature engineering effort
+
+Deep
+Usage: better generalization (indirect relevance, complex feature interactions - 泛化能力，表达力)
+Model: deep nn
+Effect: learns unseen feature combinations through low-dimensional dense embeddings learned for the sparse features
+Shortage: can over-generalize and recommend less relevant items when the user-item interactions are sparse and high-rank
+
+Wide & Deep:
+memorization & generalization
+Results: increased app acquisitions compared with one-side-only models (Google Play data)
+Loss function: Logloss
+Key: good understanding of the business (features): which to put to wide / deep; transformations
