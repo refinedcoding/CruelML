@@ -1,4 +1,4 @@
-# ESL: pp 16-30
+# ESL: pp 16-20
 
 #### From Least Squares to Nearest Neighbors
 
@@ -24,9 +24,11 @@ Seek a function $f(X)$ minimize *loss function* $L(Y,f(X))$.
 
 => expected (squared) prediction error: $EPE(f)=E(Y-f(X))^2=\int[y-f(x)]^2Pr(dx,dy)$.  
 
-=> conditioning on $X$: $EPE(f)=E_XE_Y([Y-f(X)]^2|X)$
+=> **Conditioning on $X$**: $EPE(f)=E_XE_Y([Y-f(X)]^2|X)$
 
-=> solution (*regression* function): $f(x=E(Y|X=x))$
+=> solution (*regression* function): $f(x)=E(Y|X=x)$
+
+
 
 K-nearest neighbor:
 
@@ -36,4 +38,21 @@ K-nearest neighbor:
 
   “close” to the target point.
 
-TODO
+- The rate of convergene decreases as the dimension *k* increases.
+
+
+
+k-nn and least squares end up approximating conditional expectations by averages. But, the assumptions are different
+
+- Least squares: *f(x)* is well approximate by a globally linear function
+- k-nn: *f(x)* is well approximated by a locally constant function.
+
+
+
+如果把 EPE(f) 里的 L2 loss 换成 L1 loss 即 $EPE(f)=E_XE_Y(|Y-f(X)|\ |X)$. 则实际上，解得的是
+
+$\hat{f}(x)=\mbox{median}(Y|X=x)$.
+
+
+
+
