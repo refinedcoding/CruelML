@@ -1,0 +1,6 @@
+- https://www.coursera.org/learn/machine-learning/lecture/kCvQc/gradient-descent-for-linear-regression
+- 电脑网站版的视频，竟然没法调字母，可恶
+- https://www.coursera.org/learn/machine-learning/exam/QeJ50/linear-regression-with-one-variable
+- 做了十几次，终于过了，每次考试的题目还不一样，昨天才错过了提交截止日期
+- https://www.coursera.org/learn/machine-learning/lecture/38jIT/matrices-and-vectors
+- 矩阵的秩，没看到乘法，这门课数组下标还是从0开始，矩阵的加法
