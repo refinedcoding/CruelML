@@ -114,7 +114,6 @@ Adaptively chosen basis function methods is *dictionary* methods
 - One has available a possibly infinite set of dictionary $\mathcal{D}$ of candidate basis functions. Models are built up by employing some kind of search mechanism.
 
   
-
 ### Model Selection and the Bias-Variance Tradeoff
 
 Bias-variace tradeoff
@@ -127,8 +126,23 @@ Suppose the data arise from a model $Y=f(X)+\epsilon$, with $E(\epsilon)=0$ and 
 
 The expected prediction error (generalization error) at $x_0$:
 
-$EPE_k(x_0)=E[(\hat{Y}-\hat{f}_k(x_0))^2|X=x_0]$
+$EPE_k(x_0)&=&E[(\hat{Y}-\hat{f}_k(x_0))^2|X=x_0]\\
+&=&\sigma^2+[Bias^2(\hat{f}_k(x_0))+Var_{\mathcal{T}}(\hat{f}_k(x_0))]\\
+&=&\sigma^2+[f(x_0)-\frac{1}{k}\sum_{l=1}^kf(x_{(l)})]+\frac{\sigma^2}{k}$
+
+- $\sigma^2$: irreducible error: the variance of the new target 去不掉的～
+- $E_{\mathcal{T}}[f(x_0)-\frac{1}{k}\sum_{l=1}^kf(x_{(l)})]$: bias term, randomess in the training data. k越大，这一项越大
+- $\frac{\sigma^2}{k}$ variance of average，k越大，variance越小。
 
 
 
-TODO
+Model complexity increase => variance increase, squared bias decrease
+
+用 training error $\frac{1}{N}\sum_i(y_i-\hat{y}_i)^2$ 去 estimate test error ?
+
+- does not properly account for model complexity
+
+- Overfit, underfit problem.
+
+  
+
