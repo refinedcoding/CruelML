@@ -1,0 +1,7 @@
+- TODO: 6:58/8:58
+- https://www.coursera.org/learn/machine-learning/lecture/3iawu/gradient-descent-in-practice-ii-learning-rate
+- 学习速率为0.001，0.01,0.1,1的时候，可根据收敛情况，尝试插入值0.003,0.03,0.3
+- https://www.coursera.org/learn/machine-learning/lecture/Rqgfz/features-and-polynomial-regression
+- 多项式回归，h(x)=theta(0)+theta(1)*x1 + theta(2)*x2, 
+- x1 = size, x2 = sqrt(size), 1 <= size <= 1000
+- h(x) = theta(0) + theta(1)(size/1000) + theta(2)(sqrt(size)/32)
