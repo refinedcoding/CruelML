@@ -1,0 +1,12 @@
+- https://www.coursera.org/learn/machine-learning/lecture/zSiE6/normal-equation-noninvertibility
+- 正规方程及不可逆性
+- pinv 高级计算
+- inv
+- Octave， Singular
+- x(i)(j), the ith training example for feature j
+- x(i) the ith trainning exmple with all features
+- h(x) = [theta(0) theta(1) ... theta(n)] * [x(0) x(1) ... x(n)](T)
+- m = the count of training examples
+- n = the count of features
+- 多元的梯度下降，x(0) = 1, theta(j) = theta(j) - alpha * delta(J(theta)) / delta (theta(j))
+- 每次迭代，需要对n个x更新出n个theta
