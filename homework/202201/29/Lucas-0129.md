@@ -1,0 +1,13 @@
+- 梯度下降技巧一，特性缩放
+- house area, x1: [0, 2000], x1 = size(feet^2) / 2000
+- number of bedrooms, x2: [1, 5], x2 = numberOfBedrooms / 5
+- -1 <= x(i) <= 1
+- [x1, x2] -> (x(i) - avg(x)) / (x2 - x1)
+- theta(j) = theta(j) - alpha * delta(J(theta))/delta(theta)
+- 确保梯度下降逐渐收敛， alpha太大，来回震荡，不收敛 converge
+- alpha太小，收敛太慢
+- 多项式线性回归， h(x)=theta(0)+theta(1)*frontage + theta(2)*depth
+- 多项式线性回归，x 面积大小，y 价格
+- y = theta(0) + theta(1) * x + theta(2) * x^2 + theta(3) * x^3
+- x1 = size, x2 = size ^ 2, x3 = size ^ 3
+
