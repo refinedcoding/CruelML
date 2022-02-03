@@ -1,0 +1,9 @@
+- 多项式线性回归
+- https://www.youtube.com/watch?v=dmnUlpmMjGM&list=PLOXON7BTL9IW7Ggbc09jLqGmzkwPI4-3V&index=23
+- 不用迭代，使用标准方程，一次性求出theta的数值
+- 对代价函数求导，m个样本，n个特征，x(0)=1,特征矩阵 X = m*(n + 1), x = (n + 1) * 1, y = m * 1
+- 特殊情况，n = 1, m * 2
+- theta = (X(T) * X)(-1) * X(T) * y, A = X(T)* X, (X(T) * X)(-1) = A(-1)
+- Octave: pinv(X'*X)*X'*y, X' = X(T)
+- m 个训练样本，n个特征
+- 梯度下降，需要选择alpha
