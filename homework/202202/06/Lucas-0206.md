@@ -1,0 +1,12 @@
+- 机器学习30，数据可视化
+- youtube.com/watch?v=Rfl2fxxCAT8&list=PLOXON7BTL9IW7Ggbc09jLqGmzkwPI4-3V&index=29
+- t = [0:0.01:0.98], y = sin(2*pi*4*t), plot(t, y), y1 = cos(2*pi*4*t), hold on; plot(t, y1, 'r')
+- xlabel('time'), legend('sin', 'cos'), title('My Plot')
+- cd '~/Downlodas'; print -dpng myplog.png; close;
+- figure(1); plot(t, y10; figure(2); plot(t, y2)
+- subplot(1, 2, 1); % comments
+- axis([0.5 1 -1 1]); clf
+- imagesc(A); colorbar, colormap gray;
+- comma chain 
+- TODO, 机器学习31, Octave 声明语句
+- https://www.youtube.com/watch?v=ykxOkD_uuWY&list=PLOXON7BTL9IW7Ggbc09jLqGmzkwPI4-3V&index=30
