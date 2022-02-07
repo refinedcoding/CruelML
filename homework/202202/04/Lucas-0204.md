@@ -1,0 +1,14 @@
+- https://www.youtube.com/watch?v=BkEHMf6_Fcs&list=PLOXON7BTL9IW7Ggbc09jLqGmzkwPI4-3V&index=25
+- 可选材料，如果X(T)*X 不可逆，singular 奇异矩阵，degenerate 退化矩阵
+- 机器学习28，Octave，矩阵的输入
+- https://www.youtube.com/watch?v=BOS4h08DGtE&list=PLOXON7BTL9IW7Ggbc09jLqGmzkwPI4-3V&index=27
+- 机器学习19，Octave，矩阵的运算
+- https://www.youtube.com/watch?v=C02QiWgKEts&list=PLOXON7BTL9IW7Ggbc09jLqGmzkwPI4-3V&index=28
+- A .* B, A .^ 2
+- V = [1; 2; 3], 1 ./ V, exp(v), abs(v), -v, v + ones(length(v), 1)
+- A`, Transpose, val = max(A), [val, idx] = max(A), A < 3, 
+- A = magic(3), [r, c] = find(A >= 7), sum(A), prod(A), floot(A), ceil(A)
+- A = rand(3), max(A, [], 1), max(A, [], 2), max(max(A)), max(A(:))
+- sum(A, 1), sum(A, 2), eye(8), B = A .* eye(9)), sum(sum(B)) = 369
+- flipud(eye(9)), pinv(A) * A = I
+- TODO: https://www.youtube.com/watch?v=Rfl2fxxCAT8&list=PLOXON7BTL9IW7Ggbc09jLqGmzkwPI4-3V&index=29
